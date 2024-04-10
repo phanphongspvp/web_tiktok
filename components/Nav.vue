@@ -14,11 +14,11 @@
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <button class="flex justify-center items-center border rounded-md px-3 py-1.5 hover:bg-gray-100">
+                <NuxtLink to="/upload"class="flex justify-center items-center border rounded-md px-3 py-1.5 hover:bg-gray-100">
                     <Icon name="mdi:plus" size="22" color="#000000" />
                     <span class="font-medium px-2 text-[15px]">Upload</span>
-                </button>
-                <div v-if="false" class="flex items-center">
+                </NuxtLink>
+                <div v-if="true" class="flex items-center">
                     <button class="flex justify-center items-center border rounded-md px-3 py-1.5 bg-[#F02C56] text-white">
                         <span class="font-medium px-4 text-[15px]">Log in</span>
                     </button>
